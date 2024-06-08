@@ -1,0 +1,17 @@
+h1 {
+  text-align: center;
+}
+
+h2 {
+  padding-top: 1.5rem;
+}
+.contact_info {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem 0;
+}
+
+.experience_item_header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
