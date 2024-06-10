@@ -2,16 +2,23 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Abel", sans-serif;
+}
+
+html {
+  background-color: gray;
 }
 
 body {
-  max-width: 1080px;
-  margin: auto;
+  max-width: 720px;
+  margin: .5rem auto;
   padding: 0 1.5rem;
+  background-color: white;
 }
 
 h1 {
   text-align: center;
+  padding: 1rem;
 }
 
 h2 {
