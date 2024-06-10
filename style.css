@@ -23,6 +23,7 @@ h1 {
 
 h2 {
   padding-top: 1.5rem;
+  padding-bottom: 1rem;
 }
 .contact_info {
   display: flex;
@@ -63,4 +64,10 @@ h2 {
   list-style: inside;
   line-height: 1.3rem;
   letter-spacing: 0.05rem;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
