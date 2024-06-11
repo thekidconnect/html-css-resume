@@ -22,19 +22,32 @@ h1 {
 }
 
 h2 {
-  padding-top: 1.5rem;
-  padding-bottom: 1rem;
+  padding-top: 1rem;
+  padding-bottom: .5rem;
 }
 .contact_info {
-  display: flex;
-  justify-content: space-around;
-  padding: 1rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  padding: 1rem;
+}
+
+.contact_info :first-child{
+  justify-self: start;
+}
+
+.contact_info :nth-child(2){
+  text-align: center;
+}
+
+.contact_info :last-child{
+  justify-self: end;
 }
 
 .experience {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 .experience_item_header {
