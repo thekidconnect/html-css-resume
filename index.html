@@ -6,7 +6,8 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     />
-    <title>HTML CSS Resume</title>
+    <title>Brian Okoro's Resume</title>
+    <link rel="icon" href="Brian.jpg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -130,7 +131,7 @@
       </section>
       <h2>Core Competencies</h2>
       <section class="skills">
-        <section class="skills_languages">
+        <section class="skills_section" id="skills_languages">
           <h3>Languages:</h3>
           <summary>
             English, Japanese (7 years of study, 4 on HL IB Japanese exam),
@@ -138,7 +139,7 @@
             Mathematica, C, C++, Java, Excel, LateK, HTML, CSS
           </summary>
         </section>
-        <section class="skills_tools">
+        <section class="skills_section" id="skills_tools">
           <h3>Tools and Skills:</h3>
           <summary>
             gradient boosted trees, random forests, logistic regression, linear
@@ -150,7 +151,7 @@
             Agile, Lean, CI/CD
           </summary>
         </section>
-        <section class="skills_coursework">
+        <section class="skills_section" id="skills_coursework">
           <h3>Relevant coursework:</h3>
           <summary>
             Game Theory; Industrial Organization; Quantitative Marketing;
@@ -168,8 +169,15 @@
           <article class="education_institution_item">
             <h3>California Institute of Technology</h3>
             <summary>
-              BSc, Economics; Minor, Computer Science GRE Score: 168 Verbal, 164
-              Quantitative, 5.5 Analytical
+              <div class="education_institution_degree">
+                BSc, Economics; Minor, Computer Science
+              </div>
+              <section>
+                <div>GRE Score:</div>
+                <div>168 Verbal</div>
+                <div>164 Quantitative</div>
+                <div>5.5 Analytical</div>
+              </section>
             </summary>
           </article>
           <article class="education_institution_item">
@@ -177,8 +185,16 @@
               <b>Troy High School</b>
             </h3>
             <summary>
-              International Baccalaureate Diploma Recipient GPA 4.70 SAT 2340
-              (Math 780, Reading 800, Writing 760)
+              <div class="education_institution_degree">
+                International Baccalaureate Diploma Recipient
+              </div>
+              <section>
+                <div>GPA: 4.70</div>
+                <div>SAT Score: 2340</div>
+                <div>780 Math</div>
+                <div>800 Reading</div>
+                <div>760 Writing</div>
+              </section>
             </summary>
           </article>
         </section>
