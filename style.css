@@ -110,3 +110,14 @@ h2 {
   justify-content: space-between;
 }
 
+.education_awards {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: .5rem 1rem;
+  font-size: .9rem;
+  padding: 1rem 0rem
+}
+
